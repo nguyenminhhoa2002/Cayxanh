@@ -1,64 +1,19 @@
 // Tạo mảng lưu thông tin users
 var account = [{
 	username: "admin",
-	name: "Nguyễn Thị Admin",
+	name: "Nguyễn Minh Hòa",
 	password: "123",
 	role: "admin",
 	status: "kích hoạt"
 },
 {
-	username: "quochieu",
-	name: "Hồ Quốc Hiếu",
-	password: "123",
-	role: "admin",
-	status: "kích hoạt"
-},
-{
-	username: "mychi",
-	name: "Trần Thị Mỹ Chi",
-	password: "123",
-	role: "admin",
-	status: "kích hoạt"
-},
-{
-	username: "locpv",
-	name: "Phan Văn Lộc",
-	password: "123",
-	role: "admin",
-	status: "khóa"
-}
-,
-{
-	username: "namtt",
-	name: "Trần Thanh Nam",
+	username: "hoa",
+	name: "Minh Hòa",
 	password: "123",
 	role: "user",
 	status: "kích hoạt"
-}
-,
-{
-	username: "hoangthien",
-	name: "Nguyễn Phan Hoàng Thiện",
-	password: "123",
-	role: "admin",
-	status: "kích hoạt"
-}
-,
-{
-	username: "hienhd",
-	name: "Hoàng Đức Hiền",
-	password: "123",
-	role: "seller",
-	status: "kích hoạt"
-}
-,
-{
-	username: "quocnv",
-	name: "Nguyễn Văn Quốc",
-	password: "123",
-	role: "seller",
-	status: "kích hoạt"
-}];
+},
+];
 
 // Đẩy tất cả user vào localStorage
 function saveChangeAcc() {
